@@ -1,0 +1,415 @@
+.top-right-logos ul li{
+  margin-top: 10px;
+  list-style-type: none;
+}
+.top-right-logos ul li a{
+  text-decoration: none;
+}
+.top-right-logos li a img{
+  width: 25px;
+}
+.w-175{
+  width: 1.75rem;
+}
+.w-2{
+  width: 2rem;
+}
+.fs{
+  font-size: x-small;
+}
+.fs-smaller{
+  font-size:smaller ;
+}
+.fs-xx-smalle{
+  font-size: xx-small;
+}
+.fs-medium{
+  font-size: medium;
+}
+.bg-green{
+  background-color: #33a137;
+}
+.bg-grey{
+  color: #a3a3a3;
+}
+.bg-second-nav{
+ color: #f7f7f7;
+}
+.color-white{
+  color: #fff;
+}
+.font-small{
+  font-size: small;
+}
+.width-8 {
+  width: 8rem;
+}
+.carousel-img-wrapper .carousel-caption{
+  position:absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50% , -40%);
+}
+.carousel-img-wrapper .carousel-caption button{
+  background-color: rgba(66, 66, 66, 0.384);
+}
+.main .carousel-img-wrapper {
+  position: relative;
+}
+.main .carousel-img-wrapper .overlay{
+  position: absolute;
+  inset: 0;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+.top-right-logos ul li input{
+  width: 120px;
+  border-radius: 6px;
+  border: 1px solid white;
+  background-color: transparent;
+  padding: 2px ;
+}
+.top-right-logos ul li input::placeholder{
+  color: white;
+  padding:0 4px;
+  font-size: 13px;
+}
+.top-right-logos ul li button{
+  border-radius: 6px;
+  height: 28px;
+  font-size: 13px;
+  padding: 0 12px 0 6px;
+  border: 0;
+}
+.search-engine-wrapper{
+  width: 570px;
+  margin-top: 12px;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+.search-engine-wrapper ul{
+  padding: 0;
+  margin: 0;
+}
+.search-engine-wrapper ul li{
+  list-style-type: none;
+  padding: 10px;
+  margin: 0;
+}
+.search-engine-wrapper ul li a{
+  text-decoration: none;
+}
+.search-engine-wrapper ul button{
+  height: 50px;
+  width: 100px;
+  margin: 9px 0;
+}
+.explore-sec img{
+  padding: 10px;
+  width: 70px;
+  border-radius: 10px;
+}
+.explore-sec a{
+  text-decoration: none;
+}
+.explore-sec a h5{
+  color: #222;
+}
+.titanium-agencies-sec img{
+  width:60px;
+}
+.bg-orange{
+  background-color: rgba(236, 112, 10, 0.062);
+}
+.bg-rgba-green{
+  background-color: rgba(9, 163, 4, 0.062);
+}
+.bg-rgba-pink{
+  background-color: rgba(189, 5, 97, 0.062);
+}
+.bg-rgba-purple{
+  background-color: rgba(72, 0, 114, 0.062);
+}
+.bg-rgba-skyblue{
+  background-color:rgba(7, 163, 190, 0.062)
+}
+.bg-rgba-blue{
+  background-color: rgba(15, 3, 185, 0.062);
+}
+
+.explore-sec img:hover{
+  border: 1px solid rgba(236, 112, 10, 0.062) ;
+}
+.explore-sec h5:hover{
+  color:rgba(236, 112, 10, 0.425) ;
+}
+.zameen-projects ul{
+  margin: 0;
+  padding: 0;
+  align-items: center;
+  justify-content: space-between;
+}
+.zameen-projects ul li{
+  list-style-type: none;
+}
+.zameen-projects ul li a{
+  text-decoration: none;
+}
+.border-radius{
+  border-radius: 12px;
+}
+.bg-light-blue{
+  background-color: rgba(0, 174, 255, 0.034);
+}
+.announcement{
+  justify-content: space-between;
+}
+.announcement ul{
+  margin:0;
+  padding: 0;
+  align-items: center;
+}
+.announcement ul li {
+  list-style-type: none;
+
+}
+.announcement ul li a{
+  text-decoration: none;
+
+}
+.popular-properties-wrapper{
+  width: 100%;
+}
+.popular-properties-wrapper .heading-wrapper{
+  display: flex;
+}
+.popular-properties-wrapper h4{
+  margin: 0;
+  padding-bottom: 14px;
+  margin-left: 100px;
+  border-bottom: 1px solid black;
+}
+.popular-properties-wrapper h5{
+  margin-left: 100px;
+  margin-top: 0px;
+  margin-bottom: 14px;
+  padding-top: 14px;
+}
+.popular-properties-wrapper .houses-wrapper{
+  display: flex;
+}
+.popular-properties-wrapper .houses{
+  margin-top: 0px;
+  margin:0 100px;
+  padding: 0px;
+  margin-left: 100px;
+  width: 20%;
+}
+.popular-properties-wrapper .houses ul{
+margin: 0px;
+margin-bottom: 14px;
+padding-left: 2px;
+}
+.popular-properties-wrapper .houses ul li{
+  list-style-type: none;
+  margin: 8px;
+  margin-left: 0px;
+}
+.popular-properties-wrapper .houses ul li a{
+  text-decoration: none;
+  color: #222;
+  text-align: start;
+  font-size: 12px;
+}
+.popular-properties-wrapper .app-promotion{
+  width: 100%;
+  position: relative;
+  margin-top: 24px;
+}
+.popular-properties-wrapper .app-promotion .heading-sec{
+  width: 30%;
+  background-color: transparent;
+  position: absolute;
+  top: 50px;
+  left: 10px;
+}
+.popular-properties-wrapper .app-promotion .heading-sec h1{
+  font-weight: 800;
+  margin: 0px;
+  margin-bottom: 4px;
+ color: #00a651;
+ font-size: 35px;
+}
+.popular-properties-wrapper .app-promotion .heading-sec h2{
+  font-size: 18px;
+  font-weight: 600;
+  margin: 0px;
+}
+
+.popular-properties-wrapper .app-promotion .download-loaction{
+  position: absolute;
+  top: 50px;
+  right: 0px;
+  background-color: transparent;
+  width: 30%;
+  height: 150px;
+}
+.popular-properties-wrapper .app-promotion .download-loaction a img{
+  border-radius: 14px;
+  margin: 0 2px;
+  height: 40px;
+}
+.popular-properties-wrapper .app-promotion .download-loaction h4{
+  font-size: 20px;
+  border-bottom: 0px;
+  padding-top: 8px;
+  margin: 0px;
+}
+.popular-properties-wrapper .app-promotion .download-loaction .qr{
+  display: flex;
+}
+.popular-properties-wrapper .app-promotion .download-loaction .qr img{
+  width: 25%;
+  margin-top: 12px;
+  margin-left: 30px;
+}
+.banks-promotion-wrapper{
+  background-color: rgba(163, 162, 162, 0.192);
+  width: 100%;
+}
+.banks-promotion-wrapper .banks-promotion-img-wrapper{
+  display: flex;
+  align-items: center;
+  padding-left: 100px;
+  padding-bottom: 24px;
+}
+.banks-promotion-wrapper .banks-promotion-img-wrapper img{
+  justify-content: center;
+}
+
+.banks-promotion-wrapper h1{
+  font-size: 20px;
+  padding-left: 110px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.banks-promotion-wrapper .banks-promotion{
+  height: 80px;
+  background-color: rgba(128, 128, 128, 0.103);
+  width: 16.66%;
+  margin: 0 12px;
+}
+.banks-promotion-wrapper .banks-promotion img{
+  width: 100%;
+  padding: 26px;
+}
+
+footer{
+  background-color:#1f1f1f;
+  padding: 10px;
+}
+.about-company-wrapper{
+  display: flex;
+}
+footer .about-company{
+  margin: 20px;
+  margin-top: 20px;
+  margin-left: 60px;
+  width: 20%;
+  background-color: transparent;
+}
+footer .about-company h5{
+  color: #bdbdbd;
+}
+
+footer .about-company ul{
+padding: 0;
+margin: 0;
+}
+footer .about-company ul li{
+list-style-type: none;
+margin: 14px;
+margin-left: 0px;
+font-size: smaller;
+}
+footer .about-company ul li a img{
+  width: 20px;
+  color:#bdbdbd;
+}
+footer .about-company li:first-child{
+  display: flex;
+}
+
+footer .about-company li:nth-child(2){
+  display: flex;
+}
+footer .about-company li:last-child{
+  display: flex;
+}
+footer .about-company ul li a{
+  margin:0 10px;
+  text-decoration: none;
+  color: #bdbdbd;
+}
+footer .about-company .logo-parent{
+  display: flex;
+
+}
+footer .about-company .logo-parent li{
+  margin:0;
+}
+footer .about-company .logo-parent img{
+  width: 30px;
+
+}
+footer .about-company .logo-parent-2{
+  display: flex;
+}
+footer .about-company .logo-parent-2 li{
+  margin:4px 0;
+}
+footer .about-company .logo-parent-2 img{
+  width: 30px;
+}
+footer .copyright p{
+  color:#707070;
+  font-size: small;
+  margin-left: 60px;
+}
+.update-wrapper{
+  position: fixed;
+  display: flex ;
+  align-items: center;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color:white;
+}
+.update-wrapper .icon img{
+  width: 50px;
+}
+.update-wrapper .cross button{
+  position: absolute;
+  right: 0;
+  top: 0;
+  background-color: white;
+  border: 0;
+}
+.bell-icon {
+position: fixed;
+bottom: 10px;
+right: 10px;
+height: 60px;
+width: 60px;
+border-radius: 50%;
+background-color: green;
+}
+.bell-icon button{
+  border: 0;
+  background-color: green;
+  padding: 0;
+}
+
+.bell-icon img{
+  position: absolute;
+  inset: 0;
+
+}
