@@ -1,7 +1,8 @@
-import React from 'react';
+import React,{useState} from 'react';
 import { Navbar, Nav, NavDropdown, Form, FormControl, Button } from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import {  BiPlus } from 'react-icons/bi';
+import {MdOutlineKeyboardArrowRight} from 'react-icons/md'
 import { MdOutlinePersonOutline } from "react-icons/md";
 import { BsFillGearFill,BsHouseDoorFill } from "react-icons/bs";
 import zameenLogo from '../../asset/zameen_logo.png'
@@ -9,6 +10,7 @@ import flag from '../../asset/flag.png'
 import urdutext from '../../asset/Urdutext.svg'
 import {  Link } from "react-router-dom";
 const Navi = () => {
+  const [show, setShow] = React.useState(false);
   return (
     <div> 
         <i class="bi bi-house-door-fill"></i>
@@ -26,11 +28,7 @@ const Navi = () => {
                  
                   <Link className="nav-link"  to="/blog">BLOG</Link>
                   <Link className="nav-link"  to="/map">MAP</Link>
-                  <NavDropdown title="TOOLS" id="navbarDropdown">
-                    <NavDropdown.Item href="#">Home Loan Calculator</NavDropdown.Item>
-                    <NavDropdown.Item href="#">Area Unit Converter</NavDropdown.Item>
-                    <NavDropdown.Item href="#">Land Record Pages</NavDropdown.Item>
-                  </NavDropdown>
+                 
                   <NavDropdown title="MORE" id="navbarDropdown">
                   <NavDropdown.Item > <Link className="nav-link"  to="/about">ABOUT</Link></NavDropdown.Item>
                     <NavDropdown.Item to="/contact"> <Link className="nav-link"  to="/contact">CONTACT</Link></NavDropdown.Item>
@@ -61,18 +59,36 @@ const Navi = () => {
               <Navbar.Toggle aria-controls="navbarSupportedContent" />
               <Navbar.Collapse id="navbarSupportedContent">
                 <Nav className="me-auto mb-2 mb-lg-0">
-                  <Nav.Link className="nav-link active pt-0 pb-0 font-small" href="#">BUY</Nav.Link>
-                  <Nav.Link className="nav-link pt-0 pb-0 font-small" href="#">HOME</Nav.Link>
-                  <Nav.Link className="nav-link pt-0 pb-0 font-small" href="#">PLOTS</Nav.Link>
-                  <Nav.Link className="nav-link border-end pt-0 pb-0 font-small" href="#">COMMERCIAL</Nav.Link>
-                  <Nav.Link className="nav-link border-end pt-0 pb-0 font-small" href="#">RENT</Nav.Link>
-                  <Nav.Link className="nav-link border-end pt-0 pb-0 font-small" href="#" data-bs-toggle="dropdown">
-                    AGENTS
-                  </Nav.Link>
-                  <NavDropdown title="NEW PROJECTS" id="navbarDropdown">
-                    <NavDropdown.Item href="#">Pakistan</NavDropdown.Item>
-                    <NavDropdown.Item href="#">International</NavDropdown.Item>
+                <Link  className="nav-link active pt-0 pb-0 mt-2 font-small"  onClick={() => setShow(!show)}>BUY <MdOutlineKeyboardArrowRight/></Link>
+                {show && <Link  className="nav-link active pt-0 pb-0 mt-2 font-small" to="/">HOME</Link>}
+                {show && <Link  className="nav-link active pt-0 pb-0 mt-2 font-small" to="/plot">PLOTS</Link>}
+                {show &&  <Link   className="nav-link active pt-0 pb-0 mt-2 font-small" to="/commercial">COMMERCIAL</Link>}
+            
+
+
+               
+                <Link  className="nav-link active pt-0 pb-0 mt-2 font-small" >
+                  |
+                </Link>
+               
+                <Link  className="nav-link active pt-0 pb-0 mt-2 font-small" to="/rent">RENT</Link>
+                <Link  className="nav-link active pt-0 pb-0 mt-2 font-small" >
+                  |
+                </Link>
+                <Link  className="nav-link active pt-0 pb-0 mt-2 font-small" to="/agent">AGENT</Link>
+                <Link  className="nav-link active pt-0 pb-0 mt-2 font-small" >
+                  |
+                </Link>
+                <NavDropdown title="NEW PROJECTS" id="navbarDropdown">
+                  <NavDropdown.Item > <Link className="nav-link"  to="/about">Pakistan</Link></NavDropdown.Item>
+                    <NavDropdown.Item to="/contact"> <Link className="nav-link"  to="/contact">International</Link></NavDropdown.Item>
                   </NavDropdown>
+ 
+
+
+
+                
+                 
                 </Nav>
               </Navbar.Collapse>
             </div>

@@ -10,6 +10,10 @@ import Blog from './components/Blog/Blog';
 import Map from './components/Map/Map'
 import About from './components/About/About';
 import Contact from './components/Contact/Contact';
+import Plot from './components/Plot/Plot';
+import Commercial from './components/Commercial/Commercial';
+import Rent from './components/Rent/Rent';
+import Agent from './components/Agent/Agent';
 function App() {
   
 
@@ -24,6 +28,10 @@ function App() {
           <Route path="/map"  element={<Map/>} />
           <Route path="/about"  element={<About/>} />
           <Route path="/contact"  element={<Contact/>} />
+          <Route path="/plot"  element={<Plot/>} />
+          <Route path="/commercial"  element={<Commercial/>} />
+          <Route path="/rent"  element={<Rent/>} />
+          <Route path="/agent"  element={<Agent/>} />
 
 
 
